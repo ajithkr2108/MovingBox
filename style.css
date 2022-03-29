@@ -1,0 +1,296 @@
+body{
+    margin: 0;
+    background: #fff ;
+}
+.header-container{
+    background-color: #000;
+    display: flex;
+    color: hsla(0,0%,100%,.5);
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 61px;
+    position: fixed;
+
+
+}
+header a{
+    text-decoration: none;
+    color: hsla(0,0%,100%,.5);
+    align-items: center;
+    font-family: proxima-soft,sans-serif;
+
+
+}
+header a:hover{
+    color: #f8f9fa;
+}
+header img{
+    height: 55px;
+    margin-left: -80px;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    background-image: url(images/Moving-Boxes-Self-Storage-1-1500x600.jpg);
+    justify-content: center;
+    align-items: center;
+    
+}
+.moving-box{
+    width: 582px;
+    height: 280px;
+    text-align: center;
+    color: #fff;
+    background:rgba(0, 0, 0,.4);
+
+
+}
+section h1{
+    padding-top:5px ;
+    font-size: 4rem;
+
+}
+section p{
+    padding-top: 1px;
+    font-size: 2rem;
+    margin-top: -48px;
+}
+section .get-btn-div{
+
+    margin-top: 78px;
+}
+
+
+section .get-btn{
+    font-family: proxima-soft,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0.5rem 1rem;
+    color: #000;
+    background-color: #fff;
+    border: 1.2px solid #000;
+
+
+}
+section .get-btn:hover{
+    background-color: yellow;
+}
+.move-home{
+    width: 1440px;
+    height: 230.39px;
+}
+.moving-box1{
+    margin-top: 62px;
+
+}
+.rent-store{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rent{
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 220px;
+    text-align: center;
+    align-items: center;
+    border: solid .1px gray;
+}
+.rent img{
+    width: 100px;
+    height: 57px;
+    margin-top: 50px;
+}
+.store img{
+    width: 100px;
+    height: 57px;
+    margin-top: 50px;
+}
+.store{
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 220px;
+    text-align: center;
+    align-items: center;
+    border: solid .1px gray; 
+}
+.rent h4{
+    font-family: Roboto Slab,serif;
+    font-weight: 700;
+    color: #000;
+}
+.store h4{
+    font-family: Roboto Slab,serif;
+    font-weight: 700;
+    color: #000;
+}
+.rent-btn{
+    border: radius 1px;;
+    background-color: white;
+}
+.video{
+    margin-top: 100px;
+}
+.video video{
+    width: 1140px;
+    height: 614px;
+    margin-left: 150px;
+}
+.testimonials h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Roboto Slab,serif;
+}
+
+.ts-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.card-1,.card-2{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 323px;
+    
+
+}
+.card-2 h1{
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-family: Roboto Slab,serif!important;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-style: normal;
+    
+
+}
+.card-2 p{
+    font-size: 1.1rem;
+    padding-top: 75px;
+    padding-left: 40px;
+    font-family: proxima-soft,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.recent-post h1{
+    font-family: Roboto Slab,serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 2rem;
+    text-align: center !important;
+}
+.recent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.recent-body{
+    width: 350px;
+    height: 320px;
+}
+.recent-img{
+    width: 350px;
+    height: 150px;
+
+}.recent-body h5{
+    text-align: left;
+    font-family: Roboto Slab,serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 1.25rem;
+}
+.recent-body p{
+    font-family: proxima-soft,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    font-size: 1rem;
+    display: block;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.recent-body a{
+    text-decoration: none;
+    color: black;
+
+}
+footer{
+    width: 1440px;
+    height: 392.19px;
+    margin-top: 70px;
+}
+.top-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1440px;
+    height: 315.19px;
+    background-color: #f2f2f2;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 77px;
+    background-color: black;
+}
+.footer-bottom img{
+    max-height: 45px;
+
+}
+.footer-colum h6{
+    color: black;
+    font-family: Roboto Slab,serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+.footer-colum p{
+    font-weight: 300;
+    ont-family: proxima-soft,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+}
+.footer-colum img{
+    width: 92px;
+    margin-top: 25px;
+
+}
+.footer-image{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    z-index: 1;
+    position: absolute;
+    /* top: 10px; */
+    right: 0px;
+    margin-top: -492px;
+    margin-bottom: 64px;
+    /* bottom: 15px; */
+    z-index: 1;
+}
